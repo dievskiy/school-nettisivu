@@ -1,0 +1,53 @@
+/*
+ https://coolors.co/fbf5f3-77878b-488286-f95738-0f0e0e
+ #FBF5F3
+ #0F0E0E
+ */
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background: #0F0E0E;
+}
+
+nav {
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: revert;
+}
+
+.nav-menu {
+
+    text-align: center;
+    padding: 5px;
+    margin-right: 100px;
+}
+
+.nav-menu a {
+    padding: 5px;
+    text-decoration: none;
+    color: #FBF5F3;
+}
+
+.nav-menu a:hover {
+    color: gray;
+}
+
+footer {
+    min-height: 50px;
+    background: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    color: white;
+    text-align: center;
+}
